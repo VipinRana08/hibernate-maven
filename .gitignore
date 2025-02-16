@@ -1,0 +1,27 @@
+# Java & Maven specific ignores
+*.class
+*.jar
+*.war
+*.ear
+target/
+*.log
+*.sqlite
+
+# Eclipse specific files
+.project
+.classpath
+.settings/
+
+
+# Windows specific files
+Thumbs.db
+
+# Hibernate configuration
+hibernate.cfg.xml
+
+# Maven wrapper files
+mvnw
+mvnw.cmd
+
+# Environment files
+.env
